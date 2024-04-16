@@ -1,8 +1,8 @@
 let totalApagar = 0
 let productos = []
-const total = Number(prompt("¿Total de productos?"));
+const cantidad = 3;
 
-for (let index = 1; index <= total; index++) {
+for (let index = 1; index <= cantidad; index++) {
     const nombre =prompt("¿Qué producto desea llevar?");
     const cantidad = Number(prompt("¿Cuántas unidades?"));
     const precio = Number(prompt("¿Cuánto sale cada unidad?"));
@@ -11,7 +11,7 @@ for (let index = 1; index <= total; index++) {
     totalApagar += subtotal;
 
     //lo agrega en un array tipo objeto
-    productos.push({ nombre: nombre, precio: precio });
+    productos.push({ nombre: nombre, precio: precio, cantidad: cantidad });
 }
 
 alert(totalApagar)

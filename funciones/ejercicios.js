@@ -1,4 +1,4 @@
-let productos = [];
+let productos = []; // [1,2,3,4,5,6,7]
 let total = 0;
 const cantidad = 2;
 let num_venta = 0;
@@ -43,3 +43,9 @@ total = total1 + total2 + total3;
 
 console.log(total);
 console.log(productos)
+
+
+//number numero 
+//string "" ''
+// booleano true false
+//array [1,2,3,4,5,'nombre']

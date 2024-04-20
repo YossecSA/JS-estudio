@@ -1,6 +1,6 @@
 let totalApagar = 0
 let productos = []
-const cantidad = 3;
+const cantidad = 1;
 
 for (let index = 1; index <= cantidad; index++) {
     const nombre =prompt("¿Qué producto desea llevar?");
